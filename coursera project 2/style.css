@@ -1,0 +1,72 @@
+
+ body{
+margin: 0;
+padding: 0;
+
+ }
+ #header-nav{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border-radius: 0;
+    border: 6px solid#a3c831c2;
+    height: 112px;
+  
+}
+.navbar-brand h1{
+    font-size: 40px;
+   margin: 0px 21px;
+    color: blue;
+    text-shadow: 1px 1px 1px  red;
+    font-family: 'Sriracha', cursive;
+    
+}
+.navbar-brand{
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+.navbar{
+    padding: 3rem 1rem;
+}
+.navbar-toggle{
+background-color: crimson !important;
+}
+
+.nav li{
+    font-family: 'Sriracha', cursive;
+    background-color: chocolate;
+    color: black;
+
+}
+.mid{
+    font-family: 'Sriracha', cursive;
+} 
+#main-content{
+    box-sizing: border-box;
+border: 2px solid black;
+    background-color: khaki;
+    width: 90%;
+    font-family: 'Sriracha', cursive;
+    
+    padding-left: 20px;
+}
+@media(min-width: 1200px){
+    #main-content{
+    }
+    margin: 30px 75px;
+}
+@media(min-width: 992px) and (max-width:1199px){
+    #main-content{
+    }
+    margin: 30px 50px;
+}
+@media(min-width:768px) and (max-width:991px){
+    #main-content{
+    }
+    margin: 30px 40px;
+}
+@media(max-width:767px){
+    #main-content{
+        margin: 30px 37px;
+    }
+}
